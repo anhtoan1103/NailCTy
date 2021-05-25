@@ -1,0 +1,353 @@
+/*Form 1*/
+.box_img_giftcard {
+    max-height: 320px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    padding: 3px;
+    min-height: 57px;
+    cursor: pointer;
+    position: relative;
+    background: #fff;
+    border-radius: 3px;
+    -webkit-transition: width 2s;
+    transition: width 2s
+}
+
+.box_img_giftcard img {
+    max-height: 100%;
+    margin: 0 auto
+}
+
+.preview_img {
+    border: 1px solid #ccc;
+    padding: 5px
+}
+
+.preview_img img {
+    display: block;
+    margin: 0 auto
+}
+
+.pd-fix {
+    padding: 0 5px
+}
+
+.circle_check {
+    position: absolute;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    left: 3px;
+    bottom: 3px;
+    border: 1px solid #ccc;
+    border-radius: 20px
+}
+
+.box_preview {
+    border: 1px dashed #ccc;
+    padding: 10px;
+    background: #f6f5f5
+}
+
+ul.information {
+    display: block;
+    clear: both;
+    overflow: hidden
+}
+
+ul.information li span {
+    text-align: left;
+    display: block;
+    background: #f5f5f5;
+    padding: 5px
+}
+
+span.center {
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 20px
+}
+
+span.left {
+    float: left;
+    font-weight: bold;
+    min-width: 80px
+}
+
+span.right {
+    display: inline-block !important;
+    float: left;
+    font-style: italic
+}
+
+ul.information li {
+    display: block;
+    clear: both
+}
+
+.fl-flex-label, .list_form li, .cart .form_cart p, .cart .order .total ul {
+    text-align: left
+}
+
+.title_gift {
+    clear: both;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.p-payment h3 {
+    margin-bottom: 40px
+}
+
+.block_line {
+    clear: both;
+    display: flex;
+}
+
+ul.total-payment-info li {
+    margin: 5px;
+    line-height: 25px;
+}
+
+.box_cart {
+    clear: both;
+    margin: 20px 0;
+    min-height: 200px;
+}
+
+.modal-content {
+    clear: both;
+    overflow: hidden;
+}
+
+.modal-dialog.modal-m {
+    margin: auto;
+}
+
+.btn_payment {
+    margin: 10px 0;
+}
+
+.form-tooltip-error {
+    margin-bottom: 4px;
+    max-width: 250px;
+    font-size: 12px;
+}
+
+.fl-flex-label.fl-collapsed .fl-label {
+    font-size: 10px;
+    padding-top: 0;
+    line-height: 18px;
+}
+
+.fl-flex-label .form-control:not(.form-control-lg) {
+    min-height: 36px;
+}
+
+.fl-flex-label .fl-label {
+    padding-top: 6px;
+}
+
+.cart .order .total ul {
+    padding: 0 20px;
+}
+
+.cart .order .total ul li span.order_price {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.cart .order .total ul li span.order_price_total {
+    font-weight: 600;
+    color: #f00;
+    font-size: 24px;
+}
+
+.promotion_price, .price-promotion {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 5px;
+    background-color: rgba(207, 0, 15, 0.9);
+    color: #fff;
+    font-size: 15px;
+}
+
+.price-promotion.bonus {
+    background-color: rgba(255, 69, 0, 0.9);
+}
+
+span.right.camount, span.right.cquantity {
+    color: #f00;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.box_img_giftcard {
+    position: relative;
+}
+
+.box_img_giftcard .img_popup {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    z-index: 10;
+    width: 500px !important;
+    max-width: 500px !important;
+}
+
+.box_img_giftcard .img_popup img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.active .circle_check {
+    background-color: #76c8c2;
+    border: 1px solid #76c8c2;
+}
+
+@media (max-width: 768px) {
+    .block_line {
+        display: block;
+    }
+}
+
+.box_img_giftcard:hover > .img_popup {
+    display: block
+}
+
+.box_img_giftcard .img_popup:hover {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .box_img_giftcard:hover > .img_popup, .box_img_giftcard:active > .img_popup, .box_img_giftcard:focus > .img_popup {
+        display: none
+    }
+}
+
+/* Custom */
+.block-giftcards, .box-cart, .box-recipient {
+    margin-bottom: 15px;
+}
+
+.note-text, .in-content p.note-text {
+    margin: 0 0 5px;
+    font-size: 80%;
+}
+
+.group-select.group-checkbox input {
+    float: left;
+}
+
+.group-select.group-checkbox label {
+    width: auto;
+}
+
+.mybox-order {
+    margin: 0 0 15px;
+    padding: 15px;
+    background: #f6f5f5;
+    border: 1px dashed #ccc;
+    border-radius: 3px;
+    color: #000;
+}
+
+.mybox-order ul {
+    margin: 0;
+    padding: 0;
+}
+
+.mybox-order ul li {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    padding: 0 0 15px;
+}
+
+.mybox-order .money {
+    color: #f00;
+}
+
+.mybox-order .item-info {
+    display: block;
+    clear: both;
+}
+
+.mybox-order .item-info .item-image, .mybox-order .item-info .item-name, .mybox-order .item-info .item-price {
+    margin: 0 0 15px;
+}
+
+.mybox-order .item-info .item-image {
+    max-width: 100px;
+    margin-right: 15px;
+    float: left;
+}
+
+.mybox-order .item-info .item-price, .mybox-order .total label, .mybox-order .total span {
+    font-weight: bold;
+}
+
+.mybox-order .total span {
+    font-size: 130%;
+    color: #f00;
+}
+
+.mybox-order .btn-discount, .mybox-order .btn-discount:hover {
+    background-color: #f00;
+    color: #fff;
+}
+
+.mybox-order .cart-item {
+    border-bottom: 1px dotted #aaa;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+ul.information {
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+a.disabled, button.disabled, input[type="submit"].disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+a.disabled, button.disabled, input[type="submit"].disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.giftcards-details .mTitle {
+    text-align: left;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.giftcards-details .mItem {
+    font-size: 17px;
+    margin: 15px 0;
+}
+
+.custom-price-note, .gift-price-note, .gift-price-note p {
+    color: #f00;
+    font-size: 90%;
+    margin-top: -5px;
+}
+
+.gift-price-note {
+    margin-bottom: 15px;
+}
+
+.image-item .price-up, .image-item .promotion_price, .image-item .price-promotion {
+    max-width: 100%;
+    max-height: 75%;
+    overflow-y: auto;
+}

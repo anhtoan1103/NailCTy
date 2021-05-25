@@ -1,0 +1,281 @@
+/*Cart*/
+.mycarttable {
+    background: none;
+}
+
+.mycarttable .table {
+    margin-bottom: 0;
+    border: none;
+}
+
+.mycarttable thead tr th,
+.mycarttable tbody tr td {
+    color: #4e4e4e;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.mycarttable thead tr th *,
+.mycarttable tbody tr td * {
+    margin: 0;
+}
+
+.mycarttable thead tr th {
+    background: #f9f9f9;
+    color: #4e4e4e;
+    border: 1px solid transparent;
+
+    height: 40px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.mycarttable .list-row tbody tr:first-child td {
+    border: none;
+}
+
+.mycarttable thead tr th.th-qty {
+    width: 100px;
+}
+
+.mycarttable thead tr th.th-price-total {
+    text-align: right;
+}
+
+.mycarttable thead tr th.th-remove,
+.mycarttable tbody tr td.td-remove {
+    width: 50px;
+    text-align: right;
+}
+
+.mycarttable tbody tr td .list-row-col {
+    padding: 15px;
+}
+
+.mycarttable tbody tr td .list-row-col .image-item {
+    width: 130px;
+    margin-right: 15px;
+    float: left;
+    position: relative;
+    z-index: 0;
+}
+.mycarttable tbody tr td .list-row-col .image-item img {
+    width: 100%;
+}
+.mycarttable tbody tr td .list-row-col .image-item .price-up {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    padding: 5px;
+    background: rgba(207, 0, 15, 0.9);
+    color: #fff;
+    font-size: 11px;
+}
+
+.mycarttable tbody tr td .list-row-col .image-item .price-up.bonus {
+    background-color: rgba(255, 69, 0, 0.9);
+}
+
+.mycarttable tbody tr td .list-row-col .tax-item {
+    font-size: 13px;
+}
+
+.mycarttable tbody tr td .list-row-col .name-item,
+.mycarttable tbody tr td .list-row-col .price-item,
+.mycarttable tbody tr td .list-row-col .price-total-item,
+.mycarttable tbody tr td .price-row-col,
+.mycarttable tbody tr td .price-row-col p {
+    font-weight: bold;
+}
+
+.mycarttable tbody tr td .price-row-col {
+    white-space: nowrap;
+}
+
+.mycarttable tbody tr td .list-row-col .form-control {
+    min-width: 90px;
+}
+
+.mycarttable tbody tr td .list-row-col .form-control.autowidth {
+    min-width: 110px;
+}
+
+.mycarttable tbody tr td .list-row-col .price-total-item,
+.mycarttable .price-row tbody tr,
+.mycarttable .price-row tbody tr td {
+    text-align: right;
+    color: inherit;
+}
+
+.mycarttable .price-row tbody tr.noneboder td,
+.mycarttable .price-row tbody tr:not(:first-child) td {
+    border: none;
+}
+
+.mycarttable tbody tr td:first-child {
+    width: 90%;
+}
+
+.mycarttable tbody tr td .price-row-col {
+    padding: 5px 15px;
+}
+
+.mycarttable .price-row tbody tr:last-child td .price-row-col,
+.mycarttable .price-row tbody tr:last-child td .price-row-col p {
+    font-size: 120%;
+    color: #f00;
+}
+
+.mycarttable tbody tr td .price-row-col p {
+    white-space: nowrap;
+}
+.mybutton {
+    margin-top: 15px;
+}
+
+.mybutton .btn-continue {
+    float: left;
+}
+
+.mybutton .btn-next {
+    float: right;
+    background-color: #ef2b53;
+}
+
+@media (min-width: 768px) {
+    .mycarttable tbody tr td .list-row-col .form-control.autowidth {
+        min-width: 150px;
+    }
+}
+
+@media (min-width: 992px) {
+    .mycarttable tbody tr td .list-row-col .form-control.autowidth {
+        min-width: 240px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mycarttable {
+        padding: 0;
+        background: none;
+    }
+
+    .mycarttable thead tr th {
+        background: #f9f9f9;
+    }
+
+    .mycarttable .price-row tbody tr:first-child td {
+        border: none;
+    }
+
+    .mycarttable tbody tr td .small-sm {
+        font-size: 90%;
+        line-height: initial;
+    }
+
+    .mycarttable tbody tr td p {
+        white-space: normal;
+    }
+
+    .mycarttable tbody tr td .list-row-col .name-item {
+        min-width: 250px;
+    }
+}
+
+@media (max-width: 575px) {
+    .mycarttable tbody tr td .list-row-col .name-item {
+        min-width: 110px;
+        line-height: 1.3;
+    }
+
+    .mycarttable tbody tr td .list-row-col .image-item {
+        float: none;
+    }
+
+    .mycarttable thead tr th, .mycarttable thead tr td, .mycarttable tbody tr td .list-row-col {
+        font-size: 13px;
+        padding: 15px 7px;
+    }
+
+    .mycarttable tbody tr td .list-row-col .form-control {
+        min-width: 65px;
+    }
+}
+
+/*Payment*/
+.mypayment .title-cart {
+    clear: both;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.mybox-order .image-item {
+    width: 130px;
+    margin-right: 15px;
+    float: left;
+    position: relative;
+    z-index: 0;
+}
+.mybox-order .image-item img {
+    width: 100%;
+}
+
+.mybox-order .image-item .price-up,
+.mybox-order .image-item .promotion_price,
+.mybox-order .image-item .price-promotion
+{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    padding: 5px;
+    background: rgba(207, 0, 15, 0.9);
+    color: #fff;
+    font-size: 11px;
+}
+
+.mybox-order .image-item .price-up.bonus,
+.mybox-order .image-item .promotion_price.bonus,
+.mybox-order .image-item .price-promotion.bonus {
+    background-color: rgba(255, 69, 0, 0.9);
+}
+
+.mybox-order.style2 .item-info {
+    display: flex;
+}
+
+.mybox-order.style2 .item-info .name-tax-quatity-item {
+    flex: 1;
+    padding-right: 15px;
+}
+
+.mybox-order .name-item, .mybox-order .tax-item, .mybox-order .price-item {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.mybox-order .name-item, .mybox-order .price-item {
+    font-weight: bold;
+}
+
+.mybox-order .tax-item {
+    font-size: 13px;
+}
+
+.mybox-order.style2 .money {
+    color: inherit;
+    font-weight: bold;
+}
+
+.mybox-order.style2 .cart-total .money {
+    color: #f00;
+}
